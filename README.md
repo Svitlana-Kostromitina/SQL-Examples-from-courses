@@ -54,7 +54,7 @@
                     
 **7. Вибрати всіх користувачів зі СВОЄЇ ГРУПИ та свого КУРСУ, відсортувавши на ім'я користувача (FirstName). Вивести тільки ці колонки: Login, FirstName, MiddleName, LastName, [Name] as GroupName (колонка з таблиці UserGroup), Title (таблиця Course).** 
 
-*Вариант1*
+*Варіант 1*
    
        Select u.Login, u.FirstName, u.MiddleName, u.LastName, g.[Name] as GroupName, c.Title
          From UserData u INNER JOIN UserGroupLink l ON u.UserDataId = l.UserDataId
@@ -64,7 +64,7 @@
      Order by u.FirstName 
            Go
 
-*Вариант2*
+*Варіант2*
 
        Select u.Login, u.FirstName, u.MiddleName, u.LastName, g.[Name] as GroupName, c.Title
          From UserData u, UserGroupLink l, UserGroup g, Course c
