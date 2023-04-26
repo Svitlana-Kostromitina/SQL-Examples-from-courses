@@ -1,5 +1,7 @@
 # SQL-Examples-from-courses
 
+### [Теорія](https://github.com/Svitlana-Kostromitina/SQL/blob/main/README.md)
+
 **1. Додати новий навчальний курс у таблиці Course.**
 
       Insert into Course (CourseId, Code, Title, Description, Amount, Status, CreateDate)
