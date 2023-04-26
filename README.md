@@ -64,7 +64,7 @@
      Order by u.FirstName 
            Go
 
-*Варіант2*
+*Варіант 2*
 
        Select u.Login, u.FirstName, u.MiddleName, u.LastName, g.[Name] as GroupName, c.Title
          From UserData u, UserGroupLink l, UserGroup g, Course c
